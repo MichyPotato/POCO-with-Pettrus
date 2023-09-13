@@ -1,0 +1,11 @@
+Company- UnConsolable
+poco of prime product
+Real life-y stuff
+Only toString
+Tuesday end of day 9-19 
+
+Name-string
+Brand-enum
+Storage- double (standardized as gigs)
+EnergyConsumption- int
+hasColorDisplay?- boolean
