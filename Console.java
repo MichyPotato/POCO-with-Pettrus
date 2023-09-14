@@ -17,29 +17,28 @@ public class Console {
 //defult constructor
     public Console(){
         this.name = "Oculus Quest 2";
+        this.brand = Brand.META;
         this.storage = 0;
         this.energyConsumption = 0;
         this.hasColorDisplay = false;
-        this.brand = Brand.META;
     }
-    //partial constructor
-    public Console(String name, double storage, int energyConsumption){
+    //partial constructor - 1 parameter
+    public Console(String name){
         this.name = name;
-        this.storage = storage;
-        this.energyConsumption = energyConsumption;
+        this.brand = Brand.META;
+        this.storage = 0;
+        this.energyConsumption = 0;
         this.hasColorDisplay = false;
-        this.brand = Brand.META;
     }
-    //full constructor
-    public Console(String name, double storage, int energyConsumption, boolean hasColorDisplay, Brand brand){
+    //partial constructor - 2 parameters
+    public Console(String name, Brand brand){
         this.name = name;
-        this.storage = storage;
-        this.energyConsumption = energyConsumption;
-        this.hasColorDisplay = hasColorDisplay;
         this.brand = brand;
+        this.storage = 0;
+        this.energyConsumption = 0;
+        this.hasColorDisplay = false;
     }
-
-    
+    //partial constructor - 3 parameters
     public Console(String name, Brand brand, double storage){
         this.name =  name;
         this.brand = brand;
@@ -47,6 +46,7 @@ public class Console {
         this.energyConsumption = 0;
         this.hasColorDisplay = true;
     }
+    //partial constructor - 4 parameters
     public Console(String name, Brand brand, double storage, int energyConsumption){
         this.name =  name;
         this.brand = brand;
@@ -54,6 +54,7 @@ public class Console {
         this.energyConsumption = energyConsumption;
         this.hasColorDisplay = true;
     }
+    //partial constructor - 5 parameters
     public Console(String name, Brand brand, double storage, int energyConsumption, boolean hasColorDisplay){
         this.name =  name;
         this.brand = brand;
