@@ -5,4 +5,5 @@ public class Console {
     private double storage;
     private int energyConsumption;
     private boolean hasColorDisplay;
+    private Brand brand;
 }
