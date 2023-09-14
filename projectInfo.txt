@@ -10,7 +10,7 @@ Storage- double (standardized as gigs)
 EnergyConsumption- int
 hasColorDisplay?- boolean
 
-half construcors each
+half constructors each
 - half getters and setters each
 - one person writes toString, and one constructor instantiation in main
 -other person writes two construcotr instantiation in main
