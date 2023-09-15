@@ -13,10 +13,10 @@ public class Main {
 
         // default constructor
            Console console1 = new Console();
-           console1.displayConsole();
+           System.out.println(console1);
            console1.setStorage(64);
            //displaying the console after the storage has been changed
-           console1.displayConsole();
+           System.out.println(console1);
 
            System.out.println("default constructor: (toString)");
 
