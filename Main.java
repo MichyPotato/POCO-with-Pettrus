@@ -11,7 +11,7 @@
 public class Main {
     public static void main(String[] args){
 
-        // default constructor
+        // default constructor (Michelle Luo)
            Console console1 = new Console();
            System.out.println(console1);
            console1.setName("XBOX One");
@@ -22,7 +22,27 @@ public class Main {
            //displaying the console after the storage has been changed
            System.out.println(console1);
 
-           System.out.println("default constructor: (toString)");
+        // partial constructor (Michelle Luo)
+           Console console2 = new Console("Gameboi Advertising", Brand.ATARI);
+           System.out.println(console2);
+           console2.setName("Game Boy Advance");
+           console2.setBrand(Brand.NINTENDO);
+           console2.setStorage(8);
+           console2.setEnergyConsumption(90);
+           console2.setHasColorDisplay(true);
+           //displaying the console after the storage has been changed
+           System.out.println(console2);
+
+        // full constructor (Michelle Luo)
+           Console console3 = new Console("PlayStation 4", Brand.PLAYSTATION, 500, 160, true);
+           System.out.println(console3);
+           console3.setName("PlayStation 5");
+           console3.setBrand(Brand.PLAYSTATION);
+           console3.setStorage(825);
+           console3.setEnergyConsumption(310);
+           console3.setHasColorDisplay(true);
+           //displaying the console after the storage has been changed
+           System.out.println(console3);
 
     }
 

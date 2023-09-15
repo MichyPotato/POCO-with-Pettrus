@@ -109,11 +109,18 @@ public class Console {
 
     // creating the toString method (Pettrus Konnoth)
     public String toString(){
-        return "name: " + this.name + "\n" +
-                "brand: " + this.brand + "\n" +
-                "storage: " + this.storage + "\n" +
-                "energyConsumption: " + this.energyConsumption + "\n" +
-                "hasColorDisplay: " + this.hasColorDisplay + "\n";
+        String colorDisplayString = "";
+        if (hasColorDisplay){
+            colorDisplayString = "Yes";
+        }else{
+            colorDisplayString = "No";
+        }
+        return  "---VIDEO GAME CONSOLE---" + "\n" +
+                "Name: " + this.name + "\n" +
+                "Brand: " + this.brand + "\n" +
+                "Storage: " + this.storage + "\n" +
+                "Energy Consumption: " + this.energyConsumption + "\n" +
+                "Does it display in Color: " + colorDisplayString + "\n";
     }
 
 
