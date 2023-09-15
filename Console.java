@@ -99,11 +99,11 @@ public class Console {
         this.energyConsumption = energyConsumption;
     }
     //creating getters (Pettrus Konnoth) (Michelle Luo put minor edits)
-    public boolean getHasColorDisplay() {
+    public boolean hasColorDisplay() {
         return this.hasColorDisplay;
     }
     //creating setters (Pettrus Konnoth)
-    public void hasColorDisplay(boolean hasColorDisplay) {
+    public void setHasColorDisplay(boolean hasColorDisplay) {
         this.hasColorDisplay = hasColorDisplay;
     }
 

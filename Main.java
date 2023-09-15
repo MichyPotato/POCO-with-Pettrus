@@ -14,7 +14,11 @@ public class Main {
         // default constructor
            Console console1 = new Console();
            System.out.println(console1);
+           console1.setName("XBOX One");
+           console1.setBrand(Brand.XBOX);
            console1.setStorage(64);
+           console1.setEnergyConsumption(90);
+           console1.setHasColorDisplay(true);
            //displaying the console after the storage has been changed
            System.out.println(console1);
 
