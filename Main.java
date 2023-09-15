@@ -18,6 +18,8 @@ public class Main {
            //displaying the console after the storage has been changed
            console1.displayConsole();
 
+           System.out.println("default constructor: (toString)");
+
     }
 
 }

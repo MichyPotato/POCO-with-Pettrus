@@ -104,6 +104,15 @@ public class Console {
         System.out.println("energyConsumption: " + this.energyConsumption);
         System.out.println("hasColorDisplay: " + this.hasColorDisplay);
     }
+    // creating the toString method
+    public String toString(){
+        return "name: " + this.name + "\n" +
+                "brand: " + this.brand + "\n" +
+                "storage: " + this.storage + "\n" +
+                "energyConsumption: " + this.energyConsumption + "\n" +
+                "hasColorDisplay: " + this.hasColorDisplay + "\n";
+    }
+
 
 }
 
