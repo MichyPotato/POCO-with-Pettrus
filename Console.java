@@ -64,5 +64,16 @@ public class Console {
         this.hasColorDisplay = hasColorDisplay;
     }
 
+    //Getters and Setters for name (NAME HERE)
+
+    //Getters and Setters for brand (NAME HERE)
+
+    //Getters and Setters for storage (NAME HERE)
+
+    //Getters and Setters for energyConsumption (NAME HERE)
+
+    //Getters and Setters for hasColordisplay (NAME HERE)
+
+    //toString method (NAME HERE)
 }
 
