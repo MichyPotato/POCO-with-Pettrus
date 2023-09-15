@@ -63,6 +63,51 @@ public class Console {
         this.energyConsumption = energyConsumption;
         this.hasColorDisplay = hasColorDisplay;
     }
+    //creating getters
+    public String getName() {
+        return name;
+    }
+    public Brand getBrand() {
+        return brand;
+    }
+    public double getStorage() {
+        return storage;
+    }
+    public int getEnergyConsumption() {
+        return energyConsumption;
+    }
+    public boolean isHasColorDisplay() {
+        return hasColorDisplay;
+    }
+    //creating setters
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void setBrand(Brand brand) {
+        this.brand = brand;
+    }
+    public void setStorage(double storage) {
+        this.storage = storage;
+    }
+    public void setEnergyConsumption(int energyConsumption) {
+        this.energyConsumption = energyConsumption;
+    }
+    public void setHasColorDisplay(boolean hasColorDisplay) {
+        this.hasColorDisplay = hasColorDisplay;
+    }
+
+    // creating the display mehtod
+    public void displayConsole(){
+        System.out.println("name: " + this.name);
+        System.out.println("brand: " + this.brand);
+        System.out.println("storage: " + this.storage);
+        System.out.println("energyConsumption: " + this.energyConsumption);
+        System.out.println("hasColorDisplay: " + this.hasColorDisplay);
+    }
+
+
+
+
 
 }
 
