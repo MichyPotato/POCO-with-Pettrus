@@ -47,6 +47,7 @@ public class Console {
         this.energyConsumption = 0;
         this.hasColorDisplay = true;
     }
+
     //partial constructor - 4 parameters (Michelle Luo)
     public Console(String name, Brand brand, double storage, int energyConsumption){
         this.name =  name;
@@ -55,6 +56,7 @@ public class Console {
         this.energyConsumption = energyConsumption;
         this.hasColorDisplay = true;
     }
+
     //partial constructor - 5 parameters (Michelle Luo)
     public Console(String name, Brand brand, double storage, int energyConsumption, boolean hasColorDisplay){
         this.name =  name;
@@ -63,48 +65,49 @@ public class Console {
         this.energyConsumption = energyConsumption;
         this.hasColorDisplay = hasColorDisplay;
     }
-    //creating getters
+
+    //creating getters (Pettrus Konnoth) (Michelle Luo put minor edits)
     public String getName() {
-        return name;
+        return this.name;
     }
-    public Brand getBrand() {
-        return brand;
-    }
-    public double getStorage() {
-        return storage;
-    }
-    public int getEnergyConsumption() {
-        return energyConsumption;
-    }
-    public boolean isHasColorDisplay() {
-        return hasColorDisplay;
-    }
-    //creating setters
+    //creating setters (Pettrus Konnoth)
     public void setName(String name) {
         this.name = name;
     }
+    //creating getters (Pettrus Konnoth) (Michelle Luo put minor edits)
+    public Brand getBrand() {
+        return this.brand;
+    }
+    //creating setters (Pettrus Konnoth)
     public void setBrand(Brand brand) {
         this.brand = brand;
     }
+    //creating getters (Pettrus Konnoth) (Michelle Luo put minor edits)
+    public double getStorage() {
+        return this.storage;
+    }
+    //creating setters (Pettrus Konnoth)
     public void setStorage(double storage) {
         this.storage = storage;
     }
+    //creating getters (Pettrus Konnoth) (Michelle Luo put minor edits)
+    public int getEnergyConsumption() { 
+        return this.energyConsumption;
+    }
+    //creating setters (Pettrus Konnoth)
     public void setEnergyConsumption(int energyConsumption) {
         this.energyConsumption = energyConsumption;
     }
-    public void setHasColorDisplay(boolean hasColorDisplay) {
+    //creating getters (Pettrus Konnoth) (Michelle Luo put minor edits)
+    public boolean getHasColorDisplay() {
+        return this.hasColorDisplay;
+    }
+    //creating setters (Pettrus Konnoth)
+    public void hasColorDisplay(boolean hasColorDisplay) {
         this.hasColorDisplay = hasColorDisplay;
     }
 
-    // creating the display mehtod
-    public void displayConsole(){
-        System.out.println("name: " + this.name);
-        System.out.println("brand: " + this.brand);
-        System.out.println("storage: " + this.storage);
-        System.out.println("energyConsumption: " + this.energyConsumption);
-        System.out.println("hasColorDisplay: " + this.hasColorDisplay);
-    }
-    // creating the toString method
+    // creating the toString method (Pettrus Konnoth)
     public String toString(){
         return "name: " + this.name + "\n" +
                 "brand: " + this.brand + "\n" +
