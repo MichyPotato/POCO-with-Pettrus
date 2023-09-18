@@ -108,6 +108,7 @@ public class Console {
     }
 
     // creating the toString method (Pettrus Konnoth)
+    @Override
     public String toString(){
         String colorDisplayString = "";
         if (hasColorDisplay){
