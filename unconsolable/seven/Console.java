@@ -1,11 +1,11 @@
 /* Michelle Luo and Pettrus Konnoth
  * AP CSA
- * UnConsolable
+ * UnConsolable: Console
  * September 14th
  * Period 7
  */
 
-//package unconsolable.seven;
+package unconsolable.seven;
 
 public class Console {
     // define variables (Michelle Luo)
@@ -115,6 +115,7 @@ public class Console {
         }else{
             colorDisplayString = "No";
         }
+        //return String
         return  "---VIDEO GAME CONSOLE---" + "\n" +
                 "Name: " + this.name + "\n" +
                 "Brand: " + this.brand + "\n" +

@@ -1,12 +1,12 @@
 /* Michelle Luo and Pettrus Konnoth
  * AP CSA
- * UnConsolable
+ * UnConsolable: Brand
  * September 14th
  * Period 7
  */
 
 
-//package unconsolable.seven;
+package unconsolable.seven;
 
 public enum Brand {
     XBOX,
